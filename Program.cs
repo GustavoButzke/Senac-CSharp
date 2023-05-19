@@ -62,7 +62,18 @@ namespace CSharp
 
             int resposta = mens + local + parente + valor + trabalho + relacionamento + sentimento + arma;
 
-            Console.WriteLine($"A soma é {resposta}");
+
+            if(resposta == 4){
+                Console.WriteLine($"\n\t Suspeito do Crime !!");
+            }else if(resposta == 8){
+                Console.WriteLine($"Assassino !!");
+            }else if(resposta >= 5 && resposta <= 7){
+                Console.WriteLine($"Possível Criminoso !!");
+            }else if(resposta < 4){
+                Console.WriteLine($"Inocente !!");
+            }else{
+                Console.WriteLine($"Resposta Inválida !!");
+            }
         }
     }
 }

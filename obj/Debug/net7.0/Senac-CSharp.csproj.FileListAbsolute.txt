@@ -1,0 +1,15 @@
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\bin\Debug\net7.0\Senac-CSharp.exe
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\bin\Debug\net7.0\Senac-CSharp.deps.json
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\bin\Debug\net7.0\Senac-CSharp.runtimeconfig.json
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\bin\Debug\net7.0\Senac-CSharp.dll
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\bin\Debug\net7.0\Senac-CSharp.pdb
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.csproj.AssemblyReference.cache
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.AssemblyInfoInputs.cache
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.AssemblyInfo.cs
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.dll
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\refint\Senac-CSharp.dll
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.pdb
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\Senac-CSharp.genruntimeconfig.cache
+C:\Users\Butzke\Documents\Senac\UC-1\Senac-CSharp\obj\Debug\net7.0\ref\Senac-CSharp.dll
