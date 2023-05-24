@@ -2,27 +2,25 @@ using System;
 
 namespace CSharp
 {
-    public class exrecicio05
+    public class exercicio05 
     {
-      public static void mediah()
-      {
-        Console.WriteLine("insira a qtd de pessoas: ");
-        double limite[] = new double[];
-        float alturas[limite];
-        
-        for(i=0;i < limite;i++){
-            Console.WriteLine("\n Informe a "<<i+1<<"ª altura\n");
-            cin>>alturas[i];
-            totalAltura += alturas[i];
+        public static void mediah()
+        {
+            int tam;
+            Console.Write("Informe o limite de pessoas: ");
+            tam = Convert.ToInt32(Console.ReadLine());
+            double[] teste = new double[tam];
+
+            double somas = 0;
+            for(int i=0; i< teste.Length; i++){
+                Console.Write("Informe uma altura: ");
+                teste[i] = Convert.ToDouble(Console.ReadLine());
+                somas += teste[i];
+            }
+            Console.WriteLine($"A média é {somas/teste.Length}");
+            for(int i=0; i< teste.Length; i++){
+                Console.Write($"{teste[i]}, ");
+            }
         }
-        media = totalAltura / limite;
-        Console.WriteLine($"\nA média é {media}");
-
-       }
-
     }
 }
-
-
-
-

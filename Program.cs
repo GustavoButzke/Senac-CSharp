@@ -36,11 +36,12 @@ namespace CSharp
 				break;
 			};
 			case 5: {
-				exrecicio05.mediah();
+				exercicio05.mediah();
 				break;
 			};
 			case 6: {
 				Console.WriteLine("Sendo criativo");
+				exercicio06.criativo();
 				break;
 			};
 			case 7: {
