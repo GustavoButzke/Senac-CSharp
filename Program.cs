@@ -8,14 +8,16 @@ namespace CSharp
       {
         int op;
         do{
-            Console.WriteLine("\n \t Escolha uma opção a seguir: \n");
+            Console.WriteLine("\n \t Selecione um exercício da Lista: \n");
             Console.WriteLine("\n [1] Exercício 1");
             Console.WriteLine("\n [2] Exercício 2");
             Console.WriteLine("\n [3] Exercício 3");
             Console.WriteLine("\n [4] Exercício 4");
             Console.WriteLine("\n [5] Exercício 5");
             Console.WriteLine("\n [6] Use a sua criatividade");
-            Console.WriteLine("\n [7] Encerrar \n");
+			Console.WriteLine("\n [31] Exercicio 31");
+			Console.WriteLine("\n [99] Desafio Prova");
+            Console.WriteLine("\n [0] Encerrar \n");
             op = Convert.ToInt32(Console.ReadLine());
 
             	switch(op) {
@@ -39,12 +41,16 @@ namespace CSharp
 				exercicio05.mediah();
 				break;
 			};
-			case 6: {
+			case 31: {
+				Exercicio31.ex31();
+				break;
+			};
+			case 99: {
 				Console.WriteLine("Sendo criativo");
 				exercicio06.criativo();
 				break;
 			};
-			case 7: {
+			case 0: {
 				Console.WriteLine("Finalizando");
 				break;
 			};
@@ -53,10 +59,8 @@ namespace CSharp
 				break;
 			}
 		}
-	} while(op != 7);
+	} while(op != 0);
 	Console.WriteLine("\n\n\n\n\n - Até mais \n\n\n\n\n");
         }
-
-
     }
 }
